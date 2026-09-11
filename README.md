@@ -30,7 +30,7 @@
 - [`docs/17_AI_AGENT_WORKFLOW.md`](docs/17_AI_AGENT_WORKFLOW.md)
 - [`checklists/NEW_GAME.md`](checklists/NEW_GAME.md)
 
-Затем копирует нужные шаблоны из [`templates/`](templates/) в репозиторий игры и читает только те тематические протоколы, которые нужны для текущего этапа. **Не требуется загружать весь репозиторий протоколов в контекст на каждом шаге.**
+Затем копирует нужные шаблоны из [`templates/`](templates/) в репозиторий игры, включая [`templates/AGENTS.md`](templates/AGENTS.md), и читает только те тематические протоколы, которые нужны для текущего этапа. **Не требуется загружать весь репозиторий протоколов в контекст на каждом шаге.**
 
 ## Карта документации
 
@@ -56,6 +56,7 @@
 | Работа AI/Codex и экономия контекста | [`17_AI_AGENT_WORKFLOW.md`](docs/17_AI_AGENT_WORKFLOW.md) |
 | Backend и безопасность | [`18_SECURITY_BACKEND.md`](docs/18_SECURITY_BACKEND.md) |
 | Пострелизный цикл | [`19_POST_RELEASE.md`](docs/19_POST_RELEASE.md) |
+| Повторяющиеся ошибки и анти-паттерны | [`20_COMMON_FAILURES.md`](docs/20_COMMON_FAILURES.md) |
 | Исследование и первоисточники | [`research/SOURCES.md`](research/SOURCES.md) |
 | Архитектурные решения | [`research/DECISIONS.md`](research/DECISIONS.md) |
 
